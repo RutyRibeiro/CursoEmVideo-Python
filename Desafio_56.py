@@ -7,7 +7,7 @@ for i in range(0,4):
     print('\033[33m{}° pessoa\033[m'.format(i+1))
     nome=input('Digite o nome: ')
     idade=int(input('Digite a idade: '))
-    sexo=(input('Digite o sexo F/M')).upper()
+    sexo=(input('Digite o sexo (F/M): ')).upper()
     soma_idade=soma_idade+idade
     if sexo == 'F':
         if idade<20:
