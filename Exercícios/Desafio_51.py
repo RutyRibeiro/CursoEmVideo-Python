@@ -1,4 +1,4 @@
-# le primeiro termo e razao de pa, mostra os 10 primeiros termos
+# le primeiro termo e razao de pa, mostra os 10 primeiros termos usando laço for
 print('\033[36mCalculo de PA!\033[m')
 razao=int(input('Digite a Razão:'))
 pt=int(input('Digite o Primeiro Termo: '))
