@@ -1,4 +1,4 @@
-# mostra sequencia de Fibonacci de acordo com a quantidade de numeros digitado
+# mostra sequencia de Fibonacci de acordo com a quantidade do numero digitado
 print('\033[33mSequência de Fibonacci!\033[m')
 num=int(input('Digite a quantidade de números: '))
 i=0
