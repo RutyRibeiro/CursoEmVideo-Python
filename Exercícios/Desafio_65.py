@@ -1,4 +1,4 @@
-
+#lê numeros, mostra maior, menor e média, termina quando o usuario digitar n 
 soma=0
 quant=0
 esc='S'
