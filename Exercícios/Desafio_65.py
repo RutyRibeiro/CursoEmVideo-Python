@@ -19,9 +19,9 @@ while esc!='N':
         if num<menor:
             menor=num
     esc=(input('Deseja continuar? [S/N]')).upper()
-    # while esc!='S' or esc!='N':
-    #     print("Digite uma opção válida!")    
-    #     esc=(input('Deseja continuar? [S/N]')).upper()
-    #     if esc=='S' or esc=='N':
-    #         break
+    if esc!='S' and esc!='N': 
+        while esc!='S' and esc!='N':
+            print("Digite uma opção válida!")    
+            esc=(input('Deseja continuar? [S/N]')).upper()
+       
 print('A média entre os números é: {}\nMaior: {}\nMenor: {}'.format(soma/quant,maior,menor))
