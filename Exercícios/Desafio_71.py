@@ -29,4 +29,18 @@ while cont-2>=0:
 while cont-1>=0:
     cont=cont-1
     um+=1
-print(f'\nIMPRIMINDO R${quant:.2f}\nNotas de R$100,00: {cem}\nNotas de R$50,00: {cinq}\nNotas de R$20,00: {vinte}\nNotas de R$10,00: {dez}\nNotas de R$5,00: {cinco}\nNotas de R$2,00: {dois}\nNotas de R$1,00: {um}')
+print(f'\nIMPRIMINDO R${quant:.2f}\n') 
+if cem !=0 :
+    print(f'Notas de R$100,00: {cem}')
+if cinq !=0 :
+    print(f'Notas de R$50,00: {cinq}')
+if vinte !=0 :
+    print(f'Notas de R$20,00: {vinte}')
+if dez !=0 :
+    print(f'Notas de R$10,00: {dez}')
+if cinco !=0 :
+    print(f'Notas de R$5,00: {cinco}')
+if dois !=0 :
+    print(f'Notas de R$2,00: {dois}')
+if um !=0 :
+    print(f'Notas de R$1,00: {um}')
