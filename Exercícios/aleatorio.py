@@ -1,6 +1,7 @@
-#frase=''
+#frase='lalalalala'
 #print(frase[::2])
-#print(frase.split())
+#print(list(frase))
+# print (frase.slipt())
 #
 # print(frase)
 #
