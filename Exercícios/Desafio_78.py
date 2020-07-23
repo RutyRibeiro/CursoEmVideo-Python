@@ -3,17 +3,24 @@ lista=[]
 for i in range(0,5):
     lista.append(int(input('Digite o {} número: '.format(i+1))))
 maior=lista[0]
+posiMaior=[]
 menor=lista[0]
+posiMenor=[]
 for v in lista:
     if v > maior:
         maior=v
     if v < menor:
         menor=v
-print(f'O maior valor é {maior} encontrado na(s) posição(ões): ',end='')
 for i in range(0,len(lista)):
     if lista[i]==maior:
-        print(i)
-print(f'O menor valor é {menor} encontrado na(s) posição(ões): ',end='')
-for i in range(0,len(lista)):
+        posiMaior.append(lista[i])
     if lista[i]==menor:
-        print(i)
+        posiMenor.append(lista[i])
+print(f'O menor valor é {menor} encontrado na(s) posição(ões): ',end='')
+i=0
+for i in range(0, len(posiMenor)):
+    print(posiMenor[i],'',end='')
+print(f'\nO maior valor é {maior} encontrado na(s) posição(ões): ',end='')
+i=0
+for i in range(0, len(posiMenor)):
+    print(posiMenor[i],'',end='')
