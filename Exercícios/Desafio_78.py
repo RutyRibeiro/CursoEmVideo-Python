@@ -13,14 +13,14 @@ for v in lista:
         menor=v
 for i in range(0,len(lista)):
     if lista[i]==maior:
-        posiMaior.append(lista[i])
+        posiMaior.append(i)
     if lista[i]==menor:
-        posiMenor.append(lista[i])
+        posiMenor.append(i)
 print(f'O menor valor é {menor} encontrado na(s) posição(ões): ',end='')
 i=0
 for i in range(0, len(posiMenor)):
     print(posiMenor[i],'',end='')
 print(f'\nO maior valor é {maior} encontrado na(s) posição(ões): ',end='')
 i=0
-for i in range(0, len(posiMenor)):
-    print(posiMenor[i],'',end='')
+for i in range(0, len(posiMaior)):
+    print(posiMaior[i],'',end='')
