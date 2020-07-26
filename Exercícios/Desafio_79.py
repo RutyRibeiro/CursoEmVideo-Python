@@ -11,4 +11,5 @@ while i=='S':
             i=(input('Deseja continuar [S/N]:')).upper()
     else:
         print('Valor já cadastrado, tente novamente!')
+    print('\n')
 print ('Números cadastrados em ordem crescente: {}'.format(sorted(lista)))
