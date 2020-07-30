@@ -1,11 +1,11 @@
 # recebe nome e media, adiciona a um dicionario junto com a situação mostrando o conteudo no final
 dic={}
-dic['nome']=input('Digite o nome do aluno: ').capitalize()
-dic['media']=float(input(f'Digite a média de {dic["nome"]}: '))
-if dic['media']>5:
-    dic['situacao']='Aprovado'
+dic['Nome']=input('Digite o nome do aluno: ').capitalize()
+dic['Média']=float(input(f'Digite a média de {dic["Nome"]}: '))
+if dic['Media']>=7:
+    dic['Situação']='Aprovado'
 else:
-    dic['situacao']='Reprovado'
+    dic['Situação']='Reprovado'
 for k,v in dic.items():
-    print(f'a {k} é {v} !')
+    print(f'{k}: {v}.')
 
