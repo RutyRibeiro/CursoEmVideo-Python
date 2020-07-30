@@ -20,5 +20,6 @@
 # index
 # insert(0,'') insere elementos na lista
 # del ele[], ele.remove('') são usados para remover elementos de uma lista
-# .sort(), .sort(reverse=True) ordenam os valores em ordem crescente e descrescente respectivamente
+# sorted(x) e .sort()(modifica a diretamente a variável), .sort(reverse=True) ordenam os valores em ordem crescente e descrescente respectivamente
 # quando se iguala duas listas cria-se uma ligação entre elas, para cópia usa-se: a = []; b = a[:]
+
