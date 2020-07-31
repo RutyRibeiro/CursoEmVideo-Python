@@ -25,6 +25,8 @@ while True:
     esc=int(input('Deseja ver as notas de qual aluno? [999 interrompe]: '))
     if esc==999:
         break
+    elif esc<0 or esc>=len(lista):
+        print('Número de aluno não existente!')
     else:
         print(f'As notas do aluno: \033[34m{lista[esc][0]}\033[m são: {lista[esc][1]} e {lista[esc][2]}')
     print('\n')

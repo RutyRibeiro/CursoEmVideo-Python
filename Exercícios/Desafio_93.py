@@ -6,7 +6,7 @@ dic['Partidas jogadas']=int(input(f'Quantidade de partidas jogadas por {dic["Nom
 for i in range (0,dic['Partidas jogadas']):
     num=int(input(f'Gols na partida {i}: '))
     apoio.append(num)
-dic['Gols']=apoio
+dic['Gols']=apoio[:]
 dic['Total de gols']=sum(dic['Gols'])
 print('\033[33m{:^75}\033[m'.format('APROVEITAMENTO'))
 print('{:-^75}'.format('-'))
