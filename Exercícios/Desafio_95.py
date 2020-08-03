@@ -17,7 +17,7 @@ while esc=='S':
     apoio.clear()     
     esc=(input('Deseja continuar [S/N]:')).upper()
     while esc!='S' and esc!='N':
-        print('Digite uma opção valida!')
+        print('Digite uma opção válida!')
         esc=(input('Deseja continuar [S/N]:')).upper()
     print(forma)
 
