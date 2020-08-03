@@ -2,6 +2,7 @@
  
 from time import sleep
 
+# função para calcular maior valor 
 def maior(*valores):
     print(70*'-')
     print(f'Foram recebidos {len(valores)} valores, estes são: ', end='')
