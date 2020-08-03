@@ -1,9 +1,13 @@
 # programa com função que recebe inicio, fim e passo de uma contagem, a realiza formatada 
+
 from time import sleep
 
 # função responsável por fazer e imprimir a contagem
 def contador(inicio,fim,passo):
-    # corrige o passo caso a contagem seja regressiva e o passo esteja positivo
+    # transforma o passo em 1 caso o recebido seja 0
+    if passo==0:
+        passo=1
+    # corrige o passo caso a contagem seja regressiva e o passo esteja positivo ou transforma
     if fim < inicio and passo>0:
         passo*=-1
     print('-'*50)
