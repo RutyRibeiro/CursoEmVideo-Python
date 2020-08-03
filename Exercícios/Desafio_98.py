@@ -14,7 +14,7 @@ def contador(inicio,fim,passo):
     print(f'Contando de {inicio} á {fim} de {abs(passo)} em {abs(passo)}\nContagem:', end='')
     # a estrutura condicional contida na função range faz com que todos os números propostos sejam incluidos na contagem 
     for i in range(inicio, fim+1 if fim > inicio else fim-1,passo):
-        # sleep(0.5)
+        sleep(0.5)
         print(i,' ' ,end='')
     print('FIM!\n')
 
