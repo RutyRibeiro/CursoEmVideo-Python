@@ -2,6 +2,11 @@
 from datetime import date
 
 def voto(ano):
+    """
+    ->determina a situacao de voto de uma pessoa
+    param.(ano):ano de nascimento
+    return: se esta ou nao apto ao voto
+    """
     global idade
     idade=date.today().year - ano
     if idade>65 or (idade>=16 and idade<18):
