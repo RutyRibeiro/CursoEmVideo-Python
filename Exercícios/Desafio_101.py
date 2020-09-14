@@ -7,18 +7,17 @@ def voto(ano):
     param.(ano):ano de nascimento
     return: se esta ou nao apto ao voto
     """
-    global idade
     idade=date.today().year - ano
     if idade>65 or (idade>=16 and idade<18):
-        resul='Voto opcional!'
+        resul=f' Com {idade} anos: Voto é opcional!'
     elif idade<16:
-        resul='Não vota!'
+        resul=f' Com {idade} anos: Voto não é permitido!'
     else:
-        resul='voto obrigatório!'
+        resul=f' Com {idade} anos: Voto é obrigatório!'
     return resul
 
 
 # programa principal
-idade=int(input('Digite o ano de nascimento: '))
-resul=voto(idade)
-print(f'Com {idade} anos: {resul} ')
+anoNasc=int(input('Digite o ano de nascimento: '))
+resul=voto(anoNasc)
+print(f'{resul}')
