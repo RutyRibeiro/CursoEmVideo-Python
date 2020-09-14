@@ -11,12 +11,11 @@ def fatorial(n,show=''):
         if show:
             print(f' {i} x', end='') if i!=n else  print(f' {i} = ', end='')
         fat=fat*i
-    print(fat)
-    return fat
+    return fat,i
 
 # função principal
-help(fatorial)
 num=fatorial(5,True)
+print(num)
 
         
 
