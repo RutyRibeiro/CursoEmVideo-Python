@@ -8,10 +8,12 @@ def notas(*notas,sit=''):
     if sit==True:
         if dic['Media:']<5:
             dic['Situação:']='Ruim'
+        elif 5<=dic['Media:']<=7:
+            dic['Situação:']='Razoável'
         else:
             dic['Situação:']='Boa'
     return dic
 
 # Programa principal
-resul=notas(4.5,4,6.9, sit=True)
+resul=notas(2,2,2, sit=False)
 print(resul)
