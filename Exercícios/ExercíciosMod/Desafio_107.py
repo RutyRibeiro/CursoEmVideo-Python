@@ -1,3 +1,4 @@
+# programa que importa o módulo 'moeda' para fazer cálculos a partir de um preço lido
 import moeda
 
 quant=float(input('Digite o preço R$: '))
