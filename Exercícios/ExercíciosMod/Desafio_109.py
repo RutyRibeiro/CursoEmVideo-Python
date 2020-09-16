@@ -1,4 +1,4 @@
-# adaptação do desafio 107 usando função que formata os valores retornados
+# adaptação do desafio 108 usando função que formata os valores retornados de forma simplificada
 import moeda
 
 quant=float(input('Digite o preço R$: '))
