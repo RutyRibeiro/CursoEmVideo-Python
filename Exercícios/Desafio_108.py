@@ -1,7 +1,7 @@
 # adaptação do desafio 107 usando função que formata os valores retornados
-import moeda
+from utilidadesCeV import moeda, dado
 
-quant=float(input('Digite o preço R$: '))
+quant=dado.leiafloat(input('Digite o preço R$: '))
 print(f'A metade de {moeda.moeda(quant)} = {moeda.moeda(moeda.metade(quant))}')
 print(f'O dobro de {moeda.moeda(quant)} = {moeda.moeda(moeda.dobro(quant))}')
 print(f'A aumentando 15% obtemos: = {moeda.moeda(moeda.aumentar(quant,15))}')

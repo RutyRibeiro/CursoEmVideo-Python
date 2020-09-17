@@ -1,7 +1,7 @@
 # programa que importa o módulo 'moeda' para fazer cálculos a partir de um preço lido
-import moeda
+from utilidadesCeV import moeda, dado
 
-quant=float(input('Digite o preço R$: '))
+quant=dado.leiafloat(input('Digite o preço R$: '))
 print(f'A metade de R${quant} = {moeda.metade(quant)}')
 print(f'O dobro de R${quant} = {moeda.dobro(quant)}')
 print(f'A aumentando 15% obtemos: = {moeda.aumentar(quant,15)}')
