@@ -7,7 +7,6 @@ def leiaInt(num):
         # testa se é um numero inteiro 
         if isinstance(num,int):
             return num
-            break
         else:
             print('Digite um valor válido!')
             num=input('Digite um número inteiro: ')

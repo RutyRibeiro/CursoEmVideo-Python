@@ -15,7 +15,7 @@ def diminuir(quant,p,form=''):
         retorno=moeda(retorno)
     return retorno
 
-def dobro(quant,form=''):
+def dobro(quant,form=False):
     retorno =  float(quant*2)
     if form==True:
         retorno=moeda(retorno)
