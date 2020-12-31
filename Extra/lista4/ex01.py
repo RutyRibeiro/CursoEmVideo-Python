@@ -6,7 +6,10 @@ def menor(n1,n2):
     else:
         print(f'O segundo número é menor!')
 
-n1=int(input('Digite o primeiro número: '))
-n2=int(input('Digite o segundo número: '))
-
-menor(n1,n2)
+try:
+    n1=int(input('Digite o primeiro número: '))
+    n2=int(input('Digite o segundo número: '))
+    menor(n1,n2)
+except Exception as e:
+    print(f'Houve um erro: {e}')
+    
